@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.logo {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  height: 300px;
+  width: 200px;   
+  height: 115px; 
+}
+
+.menu {
+  position: absolute;
+  top: 85px;       
+  right: 110px;  
+  display: flex;
+  align-items: center;   
+  gap: 70px; 
+  font-family: 'Poppins', sans-serif;
+}
+
+.menu a {
+  color: #D95A4E;
+  text-decoration: none;
+  font-weight: 500; 
+}
+
+.menu-img {
+  width: 35px;      
+  height: auto;
+  margin-top: -20px; 
+  margin-right: -30px; 
+  cursor: pointer;
+}
+
+.fundo-parcial {
+  background-color: #DE9493;
+  width: 100vw;        
+  height: 90vh;      
+  margin-top: -3rem;    
+  padding: 2.5vh;     
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.imagem-no-fundo {
+  width: 60rem;
+  height: 49.8rem;
+  position: absolute;
+  top: 0;
+  left: 50%;                   
+  transform: translateX(0%); 
+}
+
+.texto-no-fundo {
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.texto-no-fundo h1 {
+  font-weight: 500;  
+  font-size: 40px;
+  margin: 0;
+}
+
+.texto-no-fundo p {
+  font-weight: 0;   
+  font-size: 20px;
+  margin-top: 3.5vh;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 0;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 10px; 
+}
+
+button:hover {
+  background-color: white;
+  color: #D95A4E;
+}
+
+.favoritinhos {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;     
+  font-size: 40px;
+  color: #8C0707;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.subtitulo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;  
+  font-size: 20px;
+  text-align: center;
+  margin: 0;         
+  color: #000;       
+  margin-top: 10px;
+  
+}
+
+.produtos-container {
+  display: flex;
+  justify-content: center;  
+  gap: 40px;                
+  margin-top: 20px;
+  flex-wrap: wrap;          
+}
+
+.produto {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  max-width: 400px;        
+}
+
+.titulo-produto {
+  color: #D95A4E;
+  font-weight: 500;         
+  font-size: 20px;
+  margin: 10px 0 5px 0;
+}
+
+.descricao-produto {
+  color: #A6122D;
+  font-weight: 400;        
+  font-size: 20px;
+  margin: 0;
+}
+
+.fundo-secundario {
+  background-color: #A6122D;
+  width: 100vw;     
+  height: 90vh;       
+  margin-top: 20vh;   
+  padding: 2.5vh;     
+  position: relative; 
+}
+
+.texto-sobre {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 0;
+  max-width: 600px; 
+  position: relative;
+}
+
+.texto-sobre h1 {
+  font-weight: 500;
+  font-size: 40px;
+  color: #F2B3B3;
+  margin-bottom: 20px; 
+  transform: translateX(600px);
+  position: relative;
+  top: 100px; 
+}
+
+.texto-sobre p {
+  font-weight: 400;
+  font-size: 17px;
+  color: #FFFFFF;
+  line-height: 1.5;
+  margin-bottom: 30px; 
+  transform: translateX(600px);
+  position: relative;
+  top: 100px; 
+}
+
+.btn-sobre {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 12px 30px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
+  transform: translateX(600px);
+  position: relative;
+  top: 100px; 
+}
+
+.btn-sobre:hover {
+  background-color: white;
+  color: #A6122D;
+}
+
+.imagem-sobre-fundo {
+  width: 750px;             
+  height: auto;            
+  position: absolute;       
+  top: 40px;                
+  left: 0%;                 
+  transform: translateX(-5%);
+}
+
+.bloco-titulos {
+  position: relative;
+  width: 100%;
+  height: 0px;  
+}
+
+.titulo-avaliacoes {
+  position: absolute;              
+  top: -10px;                      
+  left: 550px;                    
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 600;               
+  color: #D95A4E;
+}
+
+.titulo-lulus {
+  position: absolute;
+  top: 55px;                     
+  left: 536px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #D95A4E;
+}
+
+.minha-imagem {
+  width: 200px;      
+  height: auto;      
+  
+  position: relative; 
+  
+  top: -10px;          
+  left: 760px;         
+  
+
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  margin-left: 150px; 
+}
+
+.retangulo {
+  background-color: #F6D3EC;
+  border-radius: 30px;
+  width: 500px;
+  height: 450px;
+  padding: 70px; 
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start; 
+  justify-content: center;
+}
+
+.texto-retangulo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 600; 
+  color: #a6122d;      
+  text-align: justify; 
+}
+
+.imagem-retangulo {
+  width: 60%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-left: 90px; 
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #DF9494;
+  color: #ffffff;
+  padding: 0px;
+  flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+}
+
+.coluna-sobre, .coluna-mapa, .coluna-categorias {
+  flex: 1;
+  min-width: 250px;
+  margin: 50px;
+}
+
+.coluna-sobre h2 img {
+  height: 50px;           
+  margin-top: -30px;      
+  vertical-align: middle; 
+}
+
+.coluna-sobre h2,
+.coluna-categorias h2 {
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.coluna-sobre p {
+  text-align: justify;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.contato img {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.coluna-categorias ul {
+  list-style: none;
+  padding: 0;
+}
+
+.coluna-categorias li {
+  margin-bottom: 8px;
+}
+
+.coluna-categorias a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.coluna-categorias a:hover {
+  color: #A6122D;
+}
+
+
+:root {
+    --cor-fundo: #F2B3B3;
+    --cor-texto: #D95A4E;
+    --tamanho-fonte: 18px;
+    --linha: #a6122d;
+    --fundo: #df9494;
+}
+
+body
+{
+    background-color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.linkheader
+{
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-weight:500;
+    font-size: var(--tamanho-fonte);
+}
+.cabecalho
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: -5rem;
+}
+.icons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 5rem;
+
+}
+.icon
+{
+    font-size: 27px;
+    color: var(--linha);
+}
+.perfilicon
+{
+    font-size: 30px;
+}
+.linkheader:hover
+{
+    color: rgb(184, 20, 50);
+}
+.linha
+{
+    border: solid 1px var(--linha);
+    width: 98vw;
+    margin-bottom: 3rem;
+    
+}
+.centralinha
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodape
+{
+    display: flex;
+    align-items: center;
+    background-color: var(--fundo);
+    color: white;
+    padding: 20px;
+}
+.titulorodape
+{
+    display: flex;
+    align-items: center;
+}
+
+.escritarodape
+{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.tamanhorodape
+{
+    width: 25rem;
+}
+.titulofooter
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+.sac
+{
+    margin-bottom: .8rem;
+    display: flex;
+    gap: .5rem;
+}
+.escritasac
+{
+    font-size: 15px;
+}
+.iconsac
+{
+    display: flex;
+    align-items: star;
+    justify-content: center;
+}
+.sactotal
+{
+    margin-top: 1.5rem;
+}
+.categoria
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.escritacategoria
+{
+    font-size: 16px;
+}
+.redes
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: .5rem;
+    transform: translateX(10rem);
+    transform: translateY(-5rem);
+    width: 16rem;
+    margin-bottom: -2rem;
+}
+.informacoestotal
+{
+    margin-left: 7rem;
+    margin-right: 2rem;
+}
+.contatototal
+{
+    margin-left: 5rem;
+}
+.rede
+{
+    font-size: 18px;
+    background-color: white;
+    color: var(--fundo);
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.rede:hover
+{
+    cursor: pointer;
+    color: #c07f7f;
+}
+.facebook:hover
+{
+    cursor: pointer;
+    color: #ffffffd3;
+}
+.categoria:hover
+{
+    color: #ffffffbd;
+}
+.imagensprodutos
+{
+  height: 20rem;
+}

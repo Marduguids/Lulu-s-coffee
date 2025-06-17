@@ -1,0 +1,430 @@
+.logo {
+  position: absolute;
+  top: 6vh;        
+  left: 8vw;       
+  width: 2 vw;      
+  height: 15vh;    
+}
+
+.menu {
+  position: absolute;
+  top: 10vh;       
+  right: 6vw;     
+  display: flex;
+  align-items: center;
+  gap: 5vw;         
+  font-family: 'Poppins', sans-serif;
+}
+
+.menu a {
+  color: #D95A4E;
+  text-decoration: none;
+  font-weight: 500; 
+}
+
+.menu-img {
+  width: 2.5vw;     
+  height: auto;
+  margin-top: -2vh;  
+  margin-right: -2vw;
+  cursor: pointer;
+}
+
+.fundo-parcial {
+  background-color: #F2B3B3;
+  width: 100vw;
+  height: 40vh;
+  margin-top: 23vh;
+  padding: 2.5vh;
+  position: relative;
+}
+
+.imagem-no-fundo {
+  position: absolute;
+  top: 6vh;      
+  left: 30vw;   
+  width: 13vw;    
+  height: auto;
+}
+
+
+.titulo-carrinho {
+  font-family: 'Poppins', sans-serif;
+  color: #A6122D;
+  font-size: 3vw;        
+  position: absolute;
+  top: 13vh;             
+  left: 40vw;           
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  padding: -10px;
+}
+
+.carrinho-container {
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  padding: 2vh;
+  margin-left: 10vw;   
+}
+
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #A6122D;
+  margin-left: 12vw;   
+}
+
+.item-carrinho {
+  display: flex;
+  align-items: center;
+  gap: 1.5vw;           
+  margin: 2vh 0;        
+  flex-wrap: wrap;
+}
+
+.remover {
+  color: #A6122D;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.4vw;     
+}
+
+
+.produto-img {
+  width: 8vw;        
+  border-radius: 0.7vw; 
+}
+
+.detalhes-produto {
+  flex: 1;
+  min-width: 13vw;      
+}
+
+.preco, .quantidade, .subtotal {
+  width: 7vw;          
+  text-align: center;
+}
+
+.quantidade input {
+  width: 4vw;           
+  padding: 0.4vh;     
+  border: 0.1vw solid #D95A4E;
+  border-radius: 0.5vw;
+  text-align: center;
+}
+
+.cupom-container {
+  display: flex;
+  margin: 3vh 0;        
+  flex-wrap: wrap;
+}
+
+
+.cupom-container input {
+  padding: 1vh;
+  border: 0.1vw solid #D95A4E;
+  border-radius: 0.5vw;
+  flex: 1;
+}
+
+.btn-aplicar,
+.btn-atualizar {
+  background-color: #D95A4E;
+  color: white;
+  border: none;
+  border-radius: 0.6vw;     
+  padding: 1vh 1.5vw;      
+  cursor: pointer;
+}
+
+.resumo {
+  margin-top: 2vh;    
+}
+
+.resumo h3 {
+  color: #A6122D;
+}
+
+.linha {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh 0;    
+}
+
+.cinza {
+  color: #424242;
+}
+
+
+.total span:last-child {
+  font-weight: bold;
+}
+
+.btn-finalizar {
+  background-color: #D95A4E;
+  color: white;
+  border: none;
+  border-radius: 0.6vw;    
+  padding: 2vh;            
+  margin-top: 2vh;        
+  width: 100%;
+  font-size: 1.2vw;        
+  cursor: pointer;
+}
+
+hr {
+  border: none;
+  border-top: 0.1vh solid #F6D3EC;
+  width: 100%;
+  margin: 2vh auto;        
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #DF9494;
+  color: #ffffff;
+  padding: 0; 
+  flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.coluna-sobre, .coluna-mapa, .coluna-categorias {
+  flex: 1;
+  min-width: 17vw;          
+  margin: 3.5vh;            
+}
+
+.coluna-sobre h2 img {
+  height: 8vh;            
+  margin-top: -5vh;         
+  vertical-align: middle;
+}
+
+.coluna-sobre h2,
+.coluna-categorias h2 {
+  color: #ffffff;
+  font-size: 1.4vw;          
+  margin-bottom: 0.7vh;      
+  display: flex;
+  align-items: center;
+  gap: 0.7vw;                
+}
+
+.coluna-sobre p {
+  text-align: justify;
+  font-size: 1vw;            
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.contato img {
+  vertical-align: middle;
+  margin-right: 0.6vw;     
+}
+
+.coluna-categorias ul {
+  list-style: none;
+  padding: 0;
+}
+
+.coluna-categorias li {
+  margin-bottom: 0.6vh;      
+}
+
+.coluna-categorias a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.coluna-categorias a:hover {
+  color: #A6122D;
+}
+
+:root {
+    --cor-fundo: #F2B3B3;
+    --cor-texto: #D95A4E;
+    --tamanho-fonte: 18px;
+    --linha: #a6122d;
+    --fundo: #df9494;
+}
+
+body
+{
+    background-color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.linkheader
+{
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-weight:500;
+    font-size: var(--tamanho-fonte);
+}
+.cabecalho
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: -5rem;
+}
+.icons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 5rem;
+
+}
+.icon
+{
+    font-size: 27px;
+    color: var(--linha);
+}
+.perfilicon
+{
+    font-size: 30px;
+}
+.linkheader:hover
+{
+    color: rgb(184, 20, 50);
+}
+.linha5
+{
+    border: solid 1px var(--linha);
+    width: 98vw;
+    margin-bottom: 3rem;
+    
+}
+.centralinha
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodape
+{
+    display: flex;
+    align-items: center;
+    background-color: var(--fundo);
+    color: white;
+    padding: 20px;
+   
+}
+.titulorodape
+{
+    display: flex;
+    align-items: center;
+}
+
+.escritarodape
+{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.tamanhorodape
+{
+    width: 25rem;
+}
+.titulofooter
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+.sac
+{
+    margin-bottom: .8rem;
+    display: flex;
+    gap: .5rem;
+}
+.escritasac
+{
+    font-size: 15px;
+}
+.iconsac
+{
+    display: flex;
+    align-items: star;
+    justify-content: center;
+}
+.sactotal
+{
+    margin-top: 1.5rem;
+}
+.categoria
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.escritacategoria
+{
+    font-size: 16px;
+}
+.redes
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: .5rem;
+    transform: translateX(10rem);
+    transform: translateY(-5rem);
+    width: 16rem;
+    margin-bottom: -2rem;
+}
+.informacoestotal
+{
+    margin-left: 7rem;
+    margin-right: 2rem;
+}
+.contatototal
+{
+    margin-left: 5rem;
+}
+.rede
+{
+    font-size: 18px;
+    background-color: white;
+    color: var(--fundo);
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.rede:hover
+{
+    cursor: pointer;
+    color: #c07f7f;
+}
+.facebook:hover
+{
+    cursor: pointer;
+    color: #ffffffd3;
+}
+.categoria:hover
+{
+    color: #ffffffbd;
+}
