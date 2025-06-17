@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --cor-fundo: #F2B3B3;
+    --cor-texto: #D95A4E;
+    --tamanho-fonte: 18px;
+    --linha: #a6122d;
+    --fundo: #df9494;
+}
+
+body
+{
+    background-color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.linkheader
+{
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-weight:500;
+    font-size: var(--tamanho-fonte);
+}
+.cabecalho
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: -5rem;
+}
+.icons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 5rem;
+
+}
+.icon
+{
+    font-size: 27px;
+    color: var(--linha);
+}
+.perfilicon
+{
+    font-size: 30px;
+}
+.linkheader:hover
+{
+    color: rgb(184, 20, 50);
+}
+.linha
+{
+    border: solid 1px var(--linha);
+    width: 98vw;
+    
+}
+.centralinha
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodape
+{
+    display: flex;
+    align-items: center;
+    background-color: var(--fundo);
+    color: white;
+    padding: 20px;
+}
+.titulorodape
+{
+    display: flex;
+    align-items: center;
+}
+
+.escritarodape
+{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.tamanhorodape
+{
+    width: 25rem;
+}
+.titulofooter
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+.sac
+{
+    margin-bottom: .8rem;
+    display: flex;
+    gap: .5rem;
+}
+.escritasac
+{
+    font-size: 15px;
+}
+.iconsac
+{
+    display: flex;
+    align-items: star;
+    justify-content: center;
+}
+.sactotal
+{
+    margin-top: 1.5rem;
+}
+.categoria
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.escritacategoria
+{
+    font-size: 16px;
+}
+.redes
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: .5rem;
+    transform: translateX(10rem);
+    transform: translateY(-5rem);
+    width: 16rem;
+    margin-bottom: -2rem;
+}
+.informacoestotal
+{
+    margin-left: 7rem;
+    margin-right: 2rem;
+}
+.contatototal
+{
+    margin-left: 5rem;
+}
+.rede
+{
+    font-size: 18px;
+    background-color: white;
+    color: var(--fundo);
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.rede:hover
+{
+    cursor: pointer;
+    color: #c07f7f;
+}
+.facebook:hover
+{
+    cursor: pointer;
+    color: #ffffffd3;
+}
+.categoria:hover
+{
+    color: #ffffffbd;
+}
+.principal
+{
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.produto
+{
+    display: flex;
+    margin-bottom: 2rem;
+
+}
+.produtocentral
+{
+    display: flex;
+    flex-direction: column;
+}
+.imagem
+{
+    border-radius: 10px;
+    width: 20rem;
+    margin-right: 4rem;
+}
+.produtodescricao
+{
+    width: 50rem;
+    text-align: justify;
+    color: black;
+}
+.tituloproduto
+{
+    color:#A6122D;
+}
+.preco
+{
+    font-size: 22px;
+    color:rgb(107, 107, 107);  
+}
+.quantidade
+{
+    display: flex;
+    align-items: center;
+}
+.comprar
+{
+    display: flex;
+    gap: 3rem;
+}
+.botao
+{
+    height: 3rem;
+    width: 10rem;
+    color: white;
+    background-color: #F2B3B3;
+    border-radius: 30px;
+    border: none;
+}
+
+.mais, .menos {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.qnt {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  -moz-appearance: textfield;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0 5px;
+  color: rgb(107, 107, 107);
+}
+
+.qnt::-webkit-inner-spin-button,
+.qnt::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container-qnt {
+  display: flex;
+  align-items: center;
+}
+.linha2
+{
+    width: 94vw;
+    border:#df9494 solid 1px;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+.tituloprodutos
+{
+    font-weight: bolder;
+}
+.titulos
+{
+    font-size: 22px;
+    color: #D95A4E;
+
+}
+.avalicaodescricao
+{
+    width: 90vw;
+}
+.usuario
+{
+    font-size: 18px;
+}
+.estrelas
+{
+    width: 8rem;
+    margin-bottom: -1.5rem;
+}
+.estrela
+{
+    margin-top: -2rem;
+}
+.outrosimagens
+{
+    width: 12rem;
+    height: 10rem;
+    border-radius: 15px;
+}
+.outrosprodutos
+{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom: 2rem;
+}
+.titulooutros
+{
+    font-size: 15px;
+    color: #D95A4E;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.botaooutros
+{
+    width: 7rem;
+    height: 2rem;
+    border-radius: 30px;
+    border: none;
+    background-color: #D95A4E;
+    color: white;
+    margin-left: 2.5rem;
+}
+.botaooutros:hover
+{
+   background-color: #f7685b;
+}

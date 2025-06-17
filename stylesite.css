@@ -1,0 +1,199 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F2B3B3;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header{
+    background: rgb(109, 101, 152); 
+    color: blue;
+    font-size: 2em;
+}
+
+footer
+{
+    background-color: white;
+    color: gray;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: -6rem;
+    font-size: 1.3rem;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 100vh;
+    margin-top: 45rem; 
+    margin-bottom: 0rem;
+    align-items: center;
+}
+
+.rosaRosado{
+    color : #D95A4E;
+}
+
+
+#logo{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#logoLulu{
+    width: 400px;
+    margin-bottom: -300px;
+
+}
+
+#logoEscrita{
+    margin-bottom: -200px;
+}
+
+.estiloRegistro{
+    margin-top: 2rem;
+    background-color: white;
+    text-align: center; 
+    padding: 2rem;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    width: 50%;
+    border-radius: 2rem;
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.7);
+    height: 60rem;
+}
+
+hr{
+    color: #F2B3B3;
+    border: 1px solid #F2B3B3;
+    width: 95%;
+    margin-bottom: 0rem;
+    margin-top: -.5rem;
+}
+
+.elementosFooter
+{
+    display: flex;
+    flex-direction: column;
+    width: 100rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.escritaFooter
+{
+    margin-bottom: 0rem;
+
+}
+.link
+{
+    text-decoration: none;
+    color: black;
+    margin-top: 1rem;
+}
+.pessoal
+{
+    border-radius: .5rem;
+    width: 25rem;
+    height: 5rem;
+    border: solid 2px black;
+}
+.formularioRegistro
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 55rem;
+
+}
+.footer
+{
+    margin-top: 15rem;
+}
+.chapchadiv
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    padding: 5px;
+    border-radius: 5px;
+    width: 10rem;
+    gap: 1rem;
+}
+.checkboxchapcha 
+{
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkboxchapcha:checked::after {
+    content: "✓";
+    color: gray;
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkboxchapcha:hover 
+{
+    cursor: pointer;
+}
+.button
+{
+    background-color: #F2B3B3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: 29.8rem;
+    height: 10rem;
+}
+.label
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    vertical-align: middle;
+}
+.obrigatorio
+{
+    font-size: 1rem;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    color: red;
+    
+}

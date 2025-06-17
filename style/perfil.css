@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --cor-fundo: #F2B3B3;
+    --cor-texto: #D95A4E;
+    --tamanho-fonte: 18px;
+    --linha: #a6122d;
+    --fundo: #df9494;
+}
+
+body
+{
+    background-color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.linkheader
+{
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-weight:500;
+    font-size: var(--tamanho-fonte);
+}
+.cabecalho
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: -5rem;
+}
+.icons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 5rem;
+
+}
+.icon
+{
+    font-size: 27px;
+    color: var(--linha);
+}
+.perfilicon
+{
+    font-size: 30px;
+}
+.linkheader:hover
+{
+    color: rgb(184, 20, 50);
+}
+.linha
+{
+    border: solid 1px var(--linha);
+    width: 98vw;
+    margin-bottom: 3rem;
+    
+}
+.centralinha
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodape
+{
+    display: flex;
+    align-items: center;
+    background-color: var(--fundo);
+    color: white;
+    padding: 20px;
+}
+.titulorodape
+{
+    display: flex;
+    align-items: center;
+}
+
+.escritarodape
+{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.tamanhorodape
+{
+    width: 25rem;
+}
+.titulofooter
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+.sac
+{
+    margin-bottom: .8rem;
+    display: flex;
+    gap: .5rem;
+}
+.escritasac
+{
+    font-size: 15px;
+}
+.iconsac
+{
+    display: flex;
+    align-items: star;
+    justify-content: center;
+}
+.sactotal
+{
+    margin-top: 1.5rem;
+}
+.categoria
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.escritacategoria
+{
+    font-size: 16px;
+}
+.redes
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: .5rem;
+    transform: translateX(10rem);
+    transform: translateY(-5rem);
+    width: 16rem;
+    margin-bottom: -2rem;
+}
+.informacoestotal
+{
+    margin-left: 7rem;
+    margin-right: 2rem;
+}
+.contatototal
+{
+    margin-left: 5rem;
+}
+.rede
+{
+    font-size: 18px;
+    background-color: white;
+    color: var(--fundo);
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.rede:hover
+{
+    cursor: pointer;
+    color: #c07f7f;
+}
+.facebook:hover
+{
+    cursor: pointer;
+    color: #ffffffd3;
+}
+.categoria:hover
+{
+    color: #ffffffbd;
+}
+.totalperfil
+{
+    display: flex;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+}
+.user
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.username
+{
+    color: var(--cor-texto);
+}
+.selecao
+{
+    background-color: #f6d3ec;
+    width: 13rem;
+    height: 15rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+
+}
+.escritaselecao
+{
+    color: #8c0707;
+    margin-left: 2rem;
+}
+.escritaselecao:hover
+{
+    color: #b30b0b;
+    cursor: pointer;
+}
+.selecionado
+{
+    margin-top: 1rem;
+    text-decoration:underline
+}
+.escritaedicao
+{
+    color: var(--cor-texto);
+}
+.selecaopessoal
+{
+    margin-right: 6rem;
+}
+.dados 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: #f6d3ec;
+    padding: 30px;
+    width: 55rem;
+}
+
+.dados label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--cor-texto);
+}
+
+.dados input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.botao
+{
+    background-color: var(--fundo);
+    border: none;
+    border-radius: 5px;
+    width: 5rem;
+    height: 2.5rem;
+    color: white;
+}
+.botoes
+{
+    display: flex;
+    align-items: center;
+    gap: 45rem;
+    margin-top: 1rem;
+}
+.botao:hover
+{
+    background-color: #d28c8c;
+}

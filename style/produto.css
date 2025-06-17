@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --cor-fundo: #F2B3B3;
+    --cor-texto: #D95A4E;
+    --tamanho-fonte: 18px;
+    --linha: #a6122d;
+    --fundo: #df9494;
+}
+
+body
+{
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.linkheader
+{
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-weight:500;
+    font-size: var(--tamanho-fonte);
+}
+.cabecalho
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: -5rem;
+}
+.icons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 5rem;
+
+}
+.icon
+{
+    font-size: 27px;
+    color: var(--linha);
+}
+.perfilicon
+{
+    font-size: 30px;
+}
+.linkheader:hover
+{
+    color: rgb(184, 20, 50);
+}
+.linha
+{
+    border: solid 1px var(--linha);
+    width: 98vw;
+    
+}
+.centralinha
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodape
+{
+    display: flex;
+    align-items: center;
+    background-color: var(--fundo);
+    color: white;
+    padding: 20px;
+}
+.titulorodape
+{
+    display: flex;
+    align-items: center;
+}
+
+.escritarodape
+{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.tamanhorodape
+{
+    width: 25rem;
+}
+.titulofooter
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+.sac
+{
+    margin-bottom: .8rem;
+    display: flex;
+    gap: .5rem;
+}
+.escritasac
+{
+    font-size: 15px;
+}
+.iconsac
+{
+    display: flex;
+    align-items: star;
+    justify-content: center;
+}
+.sactotal
+{
+    margin-top: 1.5rem;
+}
+.categoria
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.escritacategoria
+{
+    font-size: 16px;
+}
+.redes
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: .5rem;
+    transform: translateX(10rem);
+    transform: translateY(-5rem);
+    width: 16rem;
+    margin-bottom: -2rem;
+}
+.informacoestotal
+{
+    margin-left: 7rem;
+    margin-right: 2rem;
+}
+.contatototal
+{
+    margin-left: 5rem;
+}
+.rede
+{
+    font-size: 18px;
+    background-color: white;
+    color: var(--fundo);
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.rede:hover
+{
+    cursor: pointer;
+    color: #c07f7f;
+}
+.facebook:hover
+{
+    cursor: pointer;
+    color: #ffffffd3;
+}
+.categoria:hover
+{
+    color: #ffffffbd;
+}
+.pedido
+{
+    display: flex;
+    align-items: start;
+}
+.fazerpedido
+{
+    background-color: #F6AA9F;
+    width: 43rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: 3rem;
+    
+}
+.img
+{
+   width: 60rem;
+}
+.botao
+{
+    border: none;
+    background-color: #D95A4E;
+    color: white;
+    width: 10rem;
+    height: 4rem;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botao:hover
+{
+    background-color: #f6675a;
+}
+.titulo
+{
+    font-size: bold;
+    font-size: 35px;
+
+}
+.escrita
+{
+    font-size: 20px;
+
+}
+.centralizar
+{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 35rem;
+}
+.sessao
+{
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
+    color:#8C0707;
+    font-size: 17px;
+    gap: 10rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.titulocatalo
+{
+    color: #D95A4E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selecionado
+{
+    text-decoration:underline;
+}
+.produtos
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: start;
+    justify-items: center;
+}
+.elementoproduto
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 15rem;
+    font-size: 17px;
+    margin-bottom: 2rem;
+}
+.fotoproduto
+{
+    width: 17rem;
+    height: 15rem;
+    border-radius: 15px;
+}
+.preco
+{
+    font-weight: bold;
+}
+.sessoes:hover
+{
+    cursor: pointer;
+    color:#c80d0d;
+}
+.selecaocatalogos
+{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100vw;
+    gap: 2rem;
+}
+.selecaocatalogo
+{
+   color: #A6122D;
+}
+.selecaocatalogo:hover
+{
+    color: #e81a40;
+    cursor: pointer;
+}
+
+.catalogoselecionado
+{
+    background-color: #F2B3B3;
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px ;
+}
+
